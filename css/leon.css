@@ -76,6 +76,12 @@ body{
 }
 .header{
   padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000;
+ width: 100%;
 
 }
 .header .container{
@@ -165,7 +171,7 @@ body{
   position: relative;
   background-image: url(../images/background-photo3.png);
   background-size: cover;
-  height: calc(100vh - 64px);
+  height: calc(100vh);
 }
 .landing .intro-text{
   position: absolute;
